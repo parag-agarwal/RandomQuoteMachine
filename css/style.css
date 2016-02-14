@@ -1,0 +1,75 @@
+h1 {
+  font-size: 50px;
+  color: green;
+  text-align: center;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+
+.container {
+  perspective: 1500px;
+  width: 75%;
+  margin: 0 auto;
+  height:180px;
+  min-width: 600px;
+}
+
+body {
+  background-image: url("http://free.wallpaperbackgrounds.com/pattern/black/78217-39682.jpg");
+}
+
+.flip {
+  transform-origin: 100%;
+  transform: rotateX(360deg);
+}
+
+.flip-box {
+  width: 100%;
+  height: 100%;
+  transition: 1.2s;
+  transform-style: preserve-3d;
+  height:auto;
+  /*backface-visibility:hidden;*/
+}
+
+.theQuote{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+h2,
+h3 {
+  color: white;
+  text-align: center;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+  font-size: 26px;
+}
+
+h3 {
+  margin-top: -0.3%;
+}
+
+.btn-container {
+  margin: 0 auto;
+}
+
+.toggleSwitch,
+.tweetButton {
+  display: table;
+  margin: 0 auto;
+  width: 300px;
+  font-size: 25px;
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+
+.barCon{
+  height:12px;
+  width:100%;
+}
+
+.bar {
+  width: 100%;
+  background-color: #000;
+  height: 100%;
+}
